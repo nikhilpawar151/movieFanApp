@@ -1,0 +1,25 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/Amaranth-Bold.ttf",
+      "sha1": "47b8b6d96dc4a528adfa7b98603d3b529f4a0d66"
+    },
+    {
+      "path": "assets/fonts/Archivo-SemiBold.ttf",
+      "sha1": "2bc6020da26a12e3f9918f076bd00854618aaceb"
+    },
+    {
+      "path": "assets/fonts/Saira-Regular.ttf",
+      "sha1": "d9171e1fa1f21f5ad429cdc4be6ea3bb8350c99d"
+    },
+    {
+      "path": "assets/fonts/Saira-SemiBold.ttf",
+      "sha1": "8a013b12576c6ded511dae2222f85cc7dc96bf4e"
+    },
+    {
+      "path": "assets/fonts/Saira-VariableFont.ttf",
+      "sha1": "0a39f3a34be1ecfa13debdab45a23f8bf2f26fb3"
+    }
+  ]
+}
