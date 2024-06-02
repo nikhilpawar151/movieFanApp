@@ -37,7 +37,7 @@ To run the game locally, follow these steps:
 
 | Initial load | One category | Multiple category |
 |---|---|---|
-| ![Image 1](https://nikhilpawar.co.in/gitHub/screenshots/movieFix/moviefix-all-movies.jpeg) | ![Image 2](https://nikhilpawar.co.in/gitHub/screenshots/movieFix/moviefix-all-movies.jpeg) | ![Image 3](https://nikhilpawar.co.in/gitHub/screenshots/movieFix/moviefix-all-movies.jpeg) |
+| ![Image 1](https://nikhilpawar.co.in/gitHub/screenshots/movieFix/moviefix-all-movies.jpeg) | ![Image 2](https://nikhilpawar.co.in/gitHub/screenshots/movieFix/moviefix-one-category.jpeg) | ![Image 3](https://nikhilpawar.co.in/gitHub/screenshots/movieFix/moviefix-multiple-category.jpeg) |
 
 
 ## Demo
