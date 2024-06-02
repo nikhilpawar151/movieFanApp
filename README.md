@@ -1,79 +1,57 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
-# Getting Started
+# React Native - Movie List App (MOVIEFIX)
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+This document outlines the functionalities and implementation details of a movie information app (MOVIEFIX) built in React Native.
 
-## Step 1: Start the Metro Server
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+## Features
 
-To start Metro, run the following command from the _root_ of your React Native project:
+- Displays a list of top movies for each year (starting from 2012) sorted by popularity (descending).
+- Shows movie title, and image for each movie.
+- Loads 20 movies per year initially and progressively loads more on scrolling
+- Provides a filter UI for genres fetched from TMDb API.
+- Filters movies based on selected genres.
+- Offers smooth scrolling for a seamless user experience.
 
-```bash
-# using npm
-npm start
 
-# OR using Yarn
-yarn start
-```
+## Installation
 
-## Step 2: Start your Application
-
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
-
-### For Android
+To run the game locally, follow these steps:
 
 ```bash
-# using npm
-npm run android
-
-# OR using Yarn
-yarn android
+  git clone https://github.com/nikhilpawar151/movieFanApp.git
+  cd movieFanApp
+  npm install
+  npm start
 ```
 
-### For iOS
+## Implementation
 
-```bash
-# using npm
-npm run ios
+- **Frontend:** Light/dark mode toggle
+- **UI Components:** Custom components built from scratch for reusability.
+- **API:** TMDb API used to fetch movie data.
+- **Scrolling:** Implements smooth scrolling behavior to load next year's movies as the user scrolls.
+- **Genre Filter:** Fetches genres from TMDb API and displays them as filters. Re-fetches movies based on selected genres.
 
-# OR using Yarn
-yarn ios
-```
+| Image 1 | Image 2 | Image 3 |
+|---|---|---|
+| ![Image 1](https://nikhilpawar.co.in/gitHub/screenshots/movieFix/moviefix-all-movies.jpeg) | ![Image 2](https://nikhilpawar.co.in/gitHub/screenshots/movieFix/moviefix-all-movies.jpeg) | ![Image 3](https://nikhilpawar.co.in/gitHub/screenshots/movieFix/moviefix-all-movies.jpeg) |
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+## Screenshots
 
-## Step 3: Modifying your App
+![App Screenshot](https://nikhilpawar.co.in/gitHub/screenshots/movieFix/moviefix-all-movies.jpeg)
 
-Now that you have successfully run the app, let's modify it.
+![App Screenshot](https://nikhilpawar.co.in/gitHub/screenshots/movieFix/moviefix-one-category.jpeg)
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+![App Screenshot](https://nikhilpawar.co.in/gitHub/screenshots/movieFix/moviefix-multiple-category.jpeg)
 
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
+## Contributing
 
-## Congratulations! :tada:
+Contributions are welcome! If you have any improvements or bug fixes, please feel free to open an issue or submit a pull request.
 
-You've successfully run and modified your React Native App. :partying_face:
+## Acknowledgments
 
-### Now what?
+- This project was inspired by the official Open AI documentation.
 
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+Feel free to modify and expand upon this README to provide more specific details about your project and how others can use and contribute to it.
