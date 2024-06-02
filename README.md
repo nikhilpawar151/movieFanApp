@@ -33,25 +33,13 @@ To run the game locally, follow these steps:
 - **Scrolling:** Implements smooth scrolling behavior to load next year's movies as the user scrolls.
 - **Genre Filter:** Fetches genres from TMDb API and displays them as filters. Re-fetches movies based on selected genres.
 
-| Image 1 | Image 2 | Image 3 |
+## Screenshots
+
+| Initial load | One category | Multiple category |
 |---|---|---|
 | ![Image 1](https://nikhilpawar.co.in/gitHub/screenshots/movieFix/moviefix-all-movies.jpeg) | ![Image 2](https://nikhilpawar.co.in/gitHub/screenshots/movieFix/moviefix-all-movies.jpeg) | ![Image 3](https://nikhilpawar.co.in/gitHub/screenshots/movieFix/moviefix-all-movies.jpeg) |
 
 
-## Screenshots
+## Demo
 
-![App Screenshot](https://nikhilpawar.co.in/gitHub/screenshots/movieFix/moviefix-all-movies.jpeg)
-
-![App Screenshot](https://nikhilpawar.co.in/gitHub/screenshots/movieFix/moviefix-one-category.jpeg)
-
-![App Screenshot](https://nikhilpawar.co.in/gitHub/screenshots/movieFix/moviefix-multiple-category.jpeg)
-
-## Contributing
-
-Contributions are welcome! If you have any improvements or bug fixes, please feel free to open an issue or submit a pull request.
-
-## Acknowledgments
-
-- This project was inspired by the official Open AI documentation.
-
-Feel free to modify and expand upon this README to provide more specific details about your project and how others can use and contribute to it.
+Check out the MovieFix app demo video [here](https://youtube.com/shorts/ckssW2OK-_g).
